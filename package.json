@@ -9,5 +9,8 @@
     "lint": "biome lint .",
     "check": "biome check .",
     "deploy": "sh src/bin/deploy.sh"
+  },
+  "dependencies": {
+    "openai": "^4.78.1"
   }
 }
