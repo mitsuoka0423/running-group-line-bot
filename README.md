@@ -20,13 +20,7 @@ npm install
 npx clasp push
 ```
 
-1. 新しいバージョンをデプロイ:
-
-```bash
-npx clasp deploy
-```
-
-1. (オプション) Google Apps Scriptエディタを開く:
+1. Google Apps Scriptエディタを開き、Webアプリとしてデプロイする
 
 ```bash
 npx clasp open
