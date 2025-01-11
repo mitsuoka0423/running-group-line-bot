@@ -11,7 +11,7 @@ import { saveToSpreadsheet } from './modules/spreadsheet';
  */
 function doPost(e: GoogleAppsScript.Events.DoPost) {
   const config = getConfig();
-  
+
   log('doPost', 'INFO', 'start');
   try {
     createLogSheets(config);
