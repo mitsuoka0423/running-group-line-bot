@@ -1,6 +1,8 @@
 # Use the official Node.js image
 FROM node:18
 
+RUN apt-get update && apt-get install -y pcregrep
+
 # Install clasp globally
 RUN npm install -g @google/clasp
 

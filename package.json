@@ -8,6 +8,6 @@
     "format": "biome format --write .",
     "lint": "biome lint .",
     "check": "biome check .",
-    "deploy": "clasp push && clasp open"
+    "deploy": "sh src/bin/deploy.sh"
   }
 }
