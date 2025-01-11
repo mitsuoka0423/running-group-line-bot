@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "es2019",
+    "moduleResolution": "node",
+    "types": ["google-apps-script"]
+  }
+}

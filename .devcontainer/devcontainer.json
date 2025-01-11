@@ -1,0 +1,14 @@
+{
+  "name": "Google Apps Script TypeScript",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "biomejs.biome"
+      ]
+    }
+  },
+  "remoteUser": "node"
+}

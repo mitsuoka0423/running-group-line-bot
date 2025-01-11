@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.91",
+    "@biomejs/biome": "^1.7.3"
+  },
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "check": "biome check ."
+  }
+}
