@@ -1,16 +1,17 @@
 {
+  "dependencies": {
+    "@line/bot-sdk": "^9.5.0",
+    "openai": "^4.78.1"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
     "@types/google-apps-script": "^1.0.91",
     "clasp": "^1.0.0"
   },
   "scripts": {
-    "format": "biome format --write .",
-    "lint": "biome lint .",
     "check": "biome check .",
-    "deploy": "sh src/bin/deploy.sh"
-  },
-  "dependencies": {
-    "openai": "^4.78.1"
+    "deploy": "sh src/bin/deploy.sh",
+    "format": "biome format --write .",
+    "lint": "biome lint ."
   }
 }
